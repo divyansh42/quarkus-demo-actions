@@ -45,7 +45,7 @@ jobs:
       - name: Push image
         uses: redhat-actions/push-to-registry@v2
         with:
-          tags: quay.io/diagrawa/quarkus-test
+          tags: quay.io/diagrawa/quarkus-test:latest
           username: diagrawa
           password: ${{ secrets.REGISTRY_PASSWORD }}
 
